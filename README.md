@@ -3,7 +3,7 @@
 ___
 ## Mock up site
 
-![logo][./favicon.ico]
+![logo](./favicon.ico)
 ***
 responsive university website
 
