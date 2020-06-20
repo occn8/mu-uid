@@ -8,14 +8,15 @@ ___
 university website
 ---
 
-## capabilities
-
-1. soon 
-2. `....`
+##  `....`
 
 ## About
 
 > Based off the pearl application.
-> This line is part of the same quote.
-break.
-> services that make trips and travels easier for individuals, families, freinds and even strangers
+> bla blaa blaah...
+
+## Screenshots
+![logo][./1-login.png]
+![logo][./2-signup.png]
+![logo][./3-nav.png]
+![logo][./4-home.png]
