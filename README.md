@@ -1,17 +1,17 @@
 
 # __UserInterfaceDesign__
 ___
-## Pearl
+## Mock up site
 
 ![logo][./favicon.ico]
 ***
-dream `explore` discover
+university website
 ---
 
 ## capabilities
 
-1. Varieties of `destinations` available
-2. Bookings for `hotels`, `flights` and `buses` 
+1. soon 
+2. `....`
 
 ## About
 
