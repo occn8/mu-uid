@@ -5,10 +5,13 @@ ___
 
 ![logo][./favicon.ico]
 ***
-university website
----
+responsive university website
 
-##  `....`
+### Created & Maintained By
+
+  [ochenhillary](https://github.com/occn8)
+  > [mysite](https://...mysite..)
+
 
 ## About
 

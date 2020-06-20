@@ -8,15 +8,9 @@ ol,
 ul {
     list-style: none;
 }
-
-.navbar-default {
-    background-color: transparent;
-}
-
-.main-header {
-    background: url(../img/banner.jpeg) no-repeat;
-    background-size: cover;
-    min-height: 610px;
+.navimg{
+    height: 30px;
+    width: 30px;
 }
 
 .bg-color {
@@ -27,8 +21,8 @@ ul {
     padding: 0px;
 }
 
-.navbar-default .navbar-brand {
-    color: orange;
+.navbar .navbar-brand {
+    color: rgb(255, 230, 0);
     font-size: 34px;
     text-transform: uppercase;
     font-weight: 700;
@@ -37,34 +31,25 @@ ul {
     height: inherit;
 }
 
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:focus,
-.navbar-default .navbar-nav>.active>a:hover {
+.navbar .navbar-nav>.active>a,
+.navbar .navbar-nav>.active>a:focus,
+.navbar .navbar-nav>.active>a:hover {
     color: rgb(255, 221, 158);
     background-color: transparent;
 }
 
-.navbar-default .navbar-nav>li>a {
+.navbar .navbar-nav>li>a {
     color: orange;
     padding: 10px 20px;
     text-transform: uppercase;
     background-color: transparent;
 }
 
-.navbar-default .navbar-nav>li>a:hover,
-.navbar-default .navbar-nav>li>a:focus {
+.navbar .navbar-nav>li>a:hover,
+.navbar .navbar-nav>li>a:focus {
     color: rgb(255, 221, 158);
 }
 
-.navbar-fixed-top {
-    padding: 40px 0;
-    transition: all 0.5s;
-}
-
-.top-nav-collapse {
-    background: rgba(0, 0, 0, 0.8);
-    padding: 25px 0;
-}
 
 .wrapper {
     padding: 90px 0px 130px;
@@ -72,7 +57,7 @@ ul {
 
 .top-title {
     z-index: 5;
-    font-size: 27px;
+    font-size: 20px;
     font-weight: 700;
     color: white;
     line-height: 38px;
@@ -82,7 +67,7 @@ ul {
 }
 
 .sub-title {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     color: white;
     line-height: 71px;
@@ -92,9 +77,9 @@ ul {
 }
 
 .title {
-    font-size: 123px;
+    font-size: 90px;
     font-weight: 700;
-    color: orange;
+    color: rgb(255, 230, 0);
     line-height: 88px;
     letter-spacing: 4px;
     opacity: 1;
@@ -103,7 +88,7 @@ ul {
 }
 
 .btn-submit {
-    background-color: orange;
+    background-color: rgb(255, 230, 0);
     padding: 10px 40px;
     position: relative;
 }
@@ -130,7 +115,7 @@ h1,
 h2,
 h3,
 h4 {
-    color: orange;
+    color: rgb(255, 230, 0);
     font-family: "Droid Sans", Arial, sans-serif;
     font-weight: 400;
     margin: 0 0 20px 0;
@@ -158,16 +143,13 @@ h4 {
 }
 
 .o-footer-links>li>a,
+.o-footer-into,
 .o-footer-contact>li>a {
     color: white;
 }
 
-p {
-    color: aliceblue;
-}
-
 .block {
-    color: orange;
+    color: rgb(255, 230, 0);
 }
 
 .o-container {
@@ -191,11 +173,6 @@ p {
     padding: 10px;
 }
 
-
-/* .img-responsive{
-  box-shadow: black 20px; 
-  border-radius: 30px;
-} */
 
 .grid-padding {
     padding: 0 8px;
@@ -248,7 +225,7 @@ p {
         border-color: transparent
     }
     50% {
-        border-color: orange
+        border-color: rgb(255, 208, 0)
     }
 }
 
@@ -262,7 +239,7 @@ p {
     margin: 10px;
     border-radius: 30%;
     box-shadow: 0 5px 10px -5px #7e7c7c70;
-    color: orange;
+    color: rgb(255, 230, 0);
     overflow: hidden;
     position: relative;
 }
@@ -288,7 +265,7 @@ p {
     position: absolute;
     width: 120%;
     height: 150%;
-    background: orange;
+    background: rgb(255, 230, 0);
     transform: rotate(45deg);
     left: -120%;
     top: 90%;
@@ -313,24 +290,6 @@ p {
         top: -10%;
         left: -10%;
     }
-}
-
-.main {
-    position: relative;
-    width: 100%;
-    height: 10vh;
-}
-
-.rtext {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 120px;
-    height: 40px;
-    line-height: 40px;
-    margin: auto;
 }
 
 .txt {
@@ -363,67 +322,4 @@ p {
 
 .txt::after {
     clip: rect(0, 200px, 40px, 54px);
-}
-
-.rtext:hover .txt::before {
-    left: -10px;
-    opacity: 0;
-}
-
-.rtext:hover .txt::after {
-    left: 10px;
-    opacity: 0;
-}
-
-.rtext::before {
-    content: '';
-    position: absolute;
-    top: -100px;
-    left: 0;
-    right: 0;
-    width: 1px;
-    height: 80px;
-    margin: auto;
-    background: #fff;
-    visibility: hidden;
-    opacity: 0;
-}
-
-.rtext:hover::before {
-    -webkit-animation: sword .5s;
-    animation: sword .5s;
-}
-
-@keyframes sword {
-    0% {
-        top: -100px;
-        visibility: hidden;
-        opacity: 0;
-    }
-    20% {
-        visibility: visible;
-        opacity: 1;
-    }
-    100% {
-        top: 100px;
-        visibility: hidden;
-        opacity: 0;
-    }
-}
-
-@-webkit-keyframes sword {
-    0% {
-        top: -100px;
-        visibility: hidden;
-        opacity: 0;
-    }
-    20% {
-        visibility: visible;
-        opacity: 1;
-    }
-    100% {
-        top: 100px;
-        visibility: hidden;
-        opacity: 0;
-    }
 }
