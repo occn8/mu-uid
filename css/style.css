@@ -2,6 +2,8 @@ body {
     line-height: 1.5;
     font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
+    /* background-color: #9f0013; */
+    background-color: #9f0103;
 }
 
 ol,
