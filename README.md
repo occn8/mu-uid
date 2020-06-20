@@ -1,7 +1,7 @@
 
 # __UserInterfaceDesign__
 ___
-## Mock up site
+## Umu Website
 
 ![logo](./favicon.ico)
 ***
@@ -19,7 +19,7 @@ responsive university website
 > bla blaa blaah...
 
 ## Screenshots
-![screenshots](./img/logo.png)
+![screenshots](./1-login.png)
 ![screenshots](./2-signup.png)
 ![screenshots](./3-nav.png)
 ![screenshots](./4-home.png)

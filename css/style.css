@@ -5,7 +5,27 @@ body {
     /* background-color: #9f0013; */
     background-color: #9f0103;
 }
+@font-face {
+    font-family: "stonehen";
+    src: url("../fonts/stonehen.ttf");
+}
 
+.first-letter{
+color: #CC1B00;
+font-family: 'stonehen' !important;
+font-size: 1em;
+margin: 0px;
+outline: none;
+padding: 0px;
+}
+.brand-letter{
+    color: white;
+    font-family: 'stonehen' !important;
+    font-size: 30px;
+    margin: 0px;
+    outline: none;
+    padding: 0px;
+    }
 ol,
 ul {
     list-style: none;
@@ -80,12 +100,13 @@ ul {
 
 .title {
     font-size: 90px;
+    font-family: 'stonehen' !important;
     font-weight: 700;
     color: rgb(255, 230, 0);
     line-height: 88px;
     letter-spacing: 4px;
     opacity: 1;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     padding: 25px 0px;
 }
 
