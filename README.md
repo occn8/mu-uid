@@ -19,7 +19,7 @@ responsive university website
 > bla blaa blaah...
 
 ## Screenshots
-![screenshots](./1-login.png)
+![screenshots](./img/logo.png)
 ![screenshots](./2-signup.png)
 ![screenshots](./3-nav.png)
 ![screenshots](./4-home.png)
