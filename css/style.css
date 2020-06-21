@@ -389,12 +389,30 @@ h3{
     width: 80vw;
     background-color: whitesmoke;
     border-radius: 10px;
+    padding: 20px;
+}
+.form-container2{
+    background-color: whitesmoke;
+    border-radius: 10px;
     padding: 10px;
 }
 .some-link,.some-link:hover{
     color: #9f0103;
 }
-
+.spacer{
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#reviews,#others{
+    padding: 20px;
+    background-color: white;
+}
+.mr-3,.ml-3{
+    height: 40px;
+    width: 40;
+    border-radius: 50px;
+}
 
 @media screen and (min-width: 601px) {
     .navbar .navbar-nav>li>a {
@@ -414,7 +432,14 @@ h3{
         height: inherit;
     }
     .form-container{
-        width: 50vw;
-    
+        width: 80vw;
+
     }
+    .form-container2{
+        width: 80vw;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    
   }
