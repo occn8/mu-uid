@@ -45,7 +45,7 @@ ul {
 
 .navbar .navbar-brand {
     color: rgb(255, 230, 0);
-    font-size: 34px;
+    font-size: 24px;
     text-transform: uppercase;
     font-weight: 700;
     padding: 0px;
@@ -56,16 +56,17 @@ ul {
 .navbar .navbar-nav>.active>a,
 .navbar .navbar-nav>.active>a:focus,
 .navbar .navbar-nav>.active>a:hover {
+   
     color: rgb(255, 221, 158);
     background-color: transparent;
 }
-
 .navbar .navbar-nav>li>a {
+    font-size: 12px;
     color: orange;
     padding: 10px 20px;
     text-transform: uppercase;
     background-color: transparent;
-}
+}  
 
 .navbar .navbar-nav>li>a:hover,
 .navbar .navbar-nav>li>a:focus {
@@ -79,39 +80,42 @@ ul {
 
 .top-title {
     z-index: 5;
-    font-size: 20px;
+    font-size:2vh;
+    /* font-size: 20px; */
     font-weight: 700;
     color: white;
-    line-height: 38px;
+    line-height: 2vw;
     letter-spacing: 4px;
     opacity: 1;
     text-transform: uppercase;
 }
 
 .sub-title {
-    font-size: 40px;
+    font-size:3vw;
+    /* font-size: 40px; */
     font-weight: 700;
     color: white;
-    line-height: 71px;
+    line-height: 3vw;
     letter-spacing: 4px;
     opacity: 1;
     text-transform: uppercase;
 }
 
 .title {
-    font-size: 90px;
+    font-size:8vw;
+    /* font-size: 90px; */
     font-family: 'stonehen' !important;
     font-weight: 700;
     color: rgb(255, 230, 0);
-    line-height: 88px;
+    line-height: 8vw;
     letter-spacing: 4px;
     opacity: 1;
     /* text-transform: uppercase; */
-    padding: 25px 0px;
+    padding: 15px 0px;
 }
 
 .btn-submit {
-    background-color: rgb(255, 230, 0);
+    background-color: #CC1B00;
     padding: 10px 40px;
     position: relative;
 }
@@ -141,6 +145,7 @@ h4 {
     color: rgb(255, 230, 0);
     font-family: "Droid Sans", Arial, sans-serif;
     font-weight: 400;
+    font-size: 3vh;
     margin: 0 0 20px 0;
 }
 
@@ -168,6 +173,7 @@ h4 {
 .o-footer-links>li>a,
 .o-footer-into,
 .o-footer-contact>li>a {
+    font-size: 2vh;
     color: white;
 }
 
@@ -346,3 +352,69 @@ h4 {
 .txt::after {
     clip: rect(0, 200px, 40px, 54px);
 }
+
+#infom{
+    background-color: white;
+}
+h2{
+    color: #CC1B00;
+    font-family: 'stonehen' !important;
+    font-size: 5vh;
+    text-align: center;
+}
+h3{
+    font-family: 'stonehen' !important;
+
+}
+.card0{
+      margin-left: 5px;
+      /* background-color: #9f0103; */
+  }
+.btn-primary{
+      background-color: #9f0103;
+  }
+
+.btn-outline-success{
+    color: yellow;
+    background-color: #9f01048c;
+}
+.btn-outline-success:hover, .btn-primary:hover{
+    color: yellow;
+    background-color: #9f0103;
+}
+.form-control{
+    background-color: transparent;
+}
+.form-container{
+    width: 80vw;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+}
+.some-link,.some-link:hover{
+    color: #9f0103;
+}
+
+
+@media screen and (min-width: 601px) {
+    .navbar .navbar-nav>li>a {
+      font-size: 18px;
+      color: orange;
+      padding: 10px 20px;
+      text-transform: uppercase;
+      background-color: transparent;
+    }
+    .navbar .navbar-brand {
+        color: rgb(255, 230, 0);
+        font-size: 34px;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 0px;
+        letter-spacing: 2px;
+        height: inherit;
+    }
+    .form-container{
+        width: 50vw;
+    
+    }
+  }
