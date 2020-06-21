@@ -264,7 +264,7 @@ h4 {
 .btn0 {
     width: 40px;
     height: 30px;
-    background: #f1f1f141;
+    background: #f1f1f1ab;
     margin: 10px;
     border-radius: 30%;
     box-shadow: 0 5px 10px -5px #7e7c7c70;
@@ -275,7 +275,7 @@ h4 {
 
 .btn0 i {
     /* line-height: 15px; */
-    /* padding:5px; */
+    /* padding:5px; */color: #9f0103 !important;
     font-size: 15px;
     transition: 0.2s linear;
 }
@@ -437,7 +437,7 @@ h3{
         height: inherit;
     }
     .form-container{
-        width: 80vw;
+        width: 60vw;
 
     }
     .form-container2{
