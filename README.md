@@ -7,7 +7,7 @@ ___
 ***
 responsive university website
 
-### Created & Maintained By
+### Created By
 
   [ochenhillary](https://github.com/occn8)
   > [mysite](https://...mysite..)
