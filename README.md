@@ -1,12 +1,13 @@
 
 # __UserInterfaceDesign__
 ___
-## Umu Website
+## [Umu Website](https://occn8.github.io/mu-uid/)
 
 ![logo](./favicon.ico)
 ***
 responsive university website
 
+## Check out [website](https://occn8.github.io/mu-uid/)
 ### Created By
 
   [ochenhillary](https://github.com/occn8)
