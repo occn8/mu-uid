@@ -1,18 +1,19 @@
 
 # __UserInterfaceDesign__
 ___
+
 ## [Umu Website](https://occn8.github.io/mu-uid/)
 
 ![logo](./favicon.ico)
-***
+
 responsive university website
 
 ## Check out [website](https://occn8.github.io/mu-uid/)
-### Created By
+
+### Designed By
 
   [ochenhillary](https://github.com/occn8)
-  > [mysite](https://...mysite..)
-
+  > [Blank](https://...mysite..)
 
 ## About
 
@@ -20,6 +21,9 @@ responsive university website
 > bla blaa blaah...
 
 ## Screenshots
+__`Home screen`__
+<img src="mu-uid.png" />
+
 ![screenshots](./1-login.png)
 ![screenshots](./2-signup.png)
 ![screenshots](./3-nav.png)
